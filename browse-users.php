@@ -52,19 +52,22 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav m-auto " style=" list-style: none;
-            margin: 0 10px;
-            padding: 0;
+            <ul class="navbar-nav ml-auto " style=" list-style: none;
+            margin: ;
+            padding: 30 0 0 0px!important;
             display: flex;
             justify-content: space-around;">
-                <li class="nav-item active pr-2 pl-2">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item active pr-2 pl-2" style="    padding: 0 25 0 0px!important">
+                    <a class="nav-link" href="#"><i class="fa fa-fw fa-home"></i> Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                <li class="nav-item" style=" padding: 0 25 0 0px!important">
+                    <a class="nav-link" href="#"> About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Help</a>
+                <li class="nav-item" style="    padding: 0 25 0 0px!important">
+                    <a class="nav-link" href="#"> Help</a>
+                </li>
+				<li class="nav-item" style=" padding: 0 25 0 0px!important">
+                    <a class="nav-link btn-lg bg-dark btn-dark" href="#"> Logout</a>
                 </li>
             </ul>
         </div>
